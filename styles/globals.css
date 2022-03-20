@@ -2,8 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +11,59 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.wallet-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wallets {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: snow;
+  border-radius: 0.4em;
+  padding: 1.4em;
+  width: fit-content;
+}
+.wallets-list {
+  display: flex;
+}
+
+.text {
+  font-size: 2em;
+  display: block;
+}
+
+.popup-button {
+  position: relative;
+  left: 50%;
+  margin: 1em;
+  transform: translate(-50%);
+}
+
+.button {
+  border: none;
+  border-radius: 0.3em;
+  background-color: cadetblue;
+  padding: 0.8em;
+  color: snow;
+  font-size: larger;
+  margin: 0.2em;
+}
+
+.popup-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
 }
